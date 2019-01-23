@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-react-native-gergely-nagy",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js tests/*.tsx",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gergely-nagy/eslint-config-react-native-gergely-nagy.git"
+  },
+  "author": "Gergely Nagy <gergely.nagy.contact@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gergely-nagy/eslint-config-react-native-gergely-nagy/issues"
+  },
+  "homepage": "https://github.com/gergely-nagy/eslint-config-react-native-gergely-nagy#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "semantic-release-cli": "^4.1.0",
+    "semantic-release": "^15.13.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.0.0",
+    "@typescript-eslint/parser": "^1.0.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.6.0",
+    "typescript": "^3.2.4"
+  }
+}
